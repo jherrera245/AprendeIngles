@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AprendeIngles</string>
+    <string name="text_button_english">Ingles</string>
+    <string name="text_button_spanish">Español</string>
+</resources>
