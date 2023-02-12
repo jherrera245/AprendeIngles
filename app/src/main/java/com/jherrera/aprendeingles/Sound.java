@@ -3,12 +3,15 @@ package com.jherrera.aprendeingles;
 public class Sound {
     private String word;
     private int image;
-    private int sound;
+    private int soundEnglish;
 
-    public Sound(String word, int image, int sound) {
+    private int soundSpanish;
+
+    public Sound(String word, int image, int soundEnglish, int soundSpanish) {
         this.word = word;
         this.image = image;
-        this.sound = sound;
+        this.soundEnglish = soundEnglish;
+        this.soundSpanish = soundSpanish;
     }
 
     public String getWord() {
@@ -27,11 +30,19 @@ public class Sound {
         this.image = image;
     }
 
-    public int getSound() {
-        return sound;
+    public int getSoundEnglish() {
+        return soundEnglish;
     }
 
-    public void setSound(int sound) {
-        this.sound = sound;
+    public void setSoundEnglish(int soundEnglish) {
+        this.soundEnglish = soundEnglish;
+    }
+
+    public int getSoundSpanish() {
+        return soundSpanish;
+    }
+
+    public void setSoundSpanish(int soundSpanish) {
+        this.soundSpanish = soundSpanish;
     }
 }
