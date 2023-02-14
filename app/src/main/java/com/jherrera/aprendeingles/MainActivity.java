@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         soundList.add(new Sound("Black/Negro", R.drawable.black, R.raw.black, R.raw.negro));
         soundList.add(new Sound("Gray/Gris", R.drawable.gray, R.raw.grey, R.raw.gris));
         soundList.add(new Sound("Pink/Rosa", R.drawable.pink, R.raw.pink, R.raw.rosa));
-        soundList.add(new Sound("Brown/Yellow", R.drawable.brown, R.raw.brown, R.raw.cafe));
+        soundList.add(new Sound("Brown/Cafe", R.drawable.brown, R.raw.brown, R.raw.cafe));
         soundList.add(new Sound("Orange/Naranja", R.drawable.orange, R.raw.orange, R.raw.naranja));
         soundList.add(new Sound("Green/Verde", R.drawable.green, R.raw.green, R.raw.verde));
         soundList.add(new Sound("Red/Rojo", R.drawable.red, R.raw.red, R.raw.rojo));
