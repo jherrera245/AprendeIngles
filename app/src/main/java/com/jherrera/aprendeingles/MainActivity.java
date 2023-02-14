@@ -29,19 +29,17 @@ public class MainActivity extends AppCompatActivity {
 
     private void addSoundList() {
         soundList = new ArrayList<>();
-        /*
-        * Sound
-        * word -> nombre de la palabra en ingles y español ejemplo Perro / Dog
-        * image -> imagen de referencia de la palabra guadar en drawable con el mismo nombre de la palabra ejem. jpg
-        * soundEnglish -> sonido en Ingles guardar con el dombre del animal ejemplo dog_english.mp3
-        * soundSpanish -> sonido en Español guadar con el nombre del animal ejemplo dog_spanish.mp3
-        *
-        * Ejemplo
-        * soundList.add(new Sound("Perro / Dog", R.drawable.dog, R.raw.dog_english, R.raw.dog_spanish));
-        * */
 
-        soundList.add(new Sound("Mario", R.drawable.mario, R.raw.mario_sound, R.raw.mario_vida));
-        soundList.add(new Sound("Mario", R.drawable.mario, R.raw.mario_sound, R.raw.mario_vida));
+        soundList.add(new Sound("Blue/Azul", R.drawable.blue, R.raw.blue, R.raw.azul));
+        soundList.add(new Sound("Yellow/Amarillo", R.drawable.yellow, R.raw.yellow, R.raw.amarillo));
+        soundList.add(new Sound("Black/Negro", R.drawable.black, R.raw.black, R.raw.negro));
+        soundList.add(new Sound("Gray/Gris", R.drawable.gray, R.raw.grey, R.raw.gris));
+        soundList.add(new Sound("Pink/Rosa", R.drawable.pink, R.raw.pink, R.raw.rosa));
+        soundList.add(new Sound("Brown/Yellow", R.drawable.brown, R.raw.brown, R.raw.cafe));
+        soundList.add(new Sound("Orange/Naranja", R.drawable.orange, R.raw.orange, R.raw.naranja));
+        soundList.add(new Sound("Green/Verde", R.drawable.green, R.raw.green, R.raw.verde));
+        soundList.add(new Sound("Red/Rojo", R.drawable.red, R.raw.red, R.raw.rojo));
+        soundList.add(new Sound("White/Blanco", R.drawable.white, R.raw.white, R.raw.blanco));
     }
 
     private void setAdapterSound() {
